@@ -113,12 +113,10 @@ This was widely used in early Windows networks and is still supported for backwa
 1. Open the **DHCP Management Console** from **Server Manager** > **Tools** > **DHCP**.
 ![image](https://github.com/user-attachments/assets/b8e472c1-48a5-445a-ae40-a66024959744)
 
-
-3. Right-click **DHCP** and select **Manage authorized servers** to authorize the server.
-![image](https://github.com/user-attachments/assets/9f04652e-d289-46ba-86d5-4fee53945700)
-
 5. Right-click **IPv4** and select **New Scope**.
 ![image](https://github.com/user-attachments/assets/8b1cafa3-014a-45fe-8eea-77372d257d8d)
+![image](https://github.com/user-attachments/assets/4b6c7114-2230-4764-8682-dd6cde12f035)
+![image](https://github.com/user-attachments/assets/f3ef4a1f-d891-4f6d-b886-1f3bce1420fe)
 
 7. Configure the scope by entering a **Start IP address**, **End IP address**, **Subnet Mask**, and any **Exclusions** for static IPs.
 8. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
