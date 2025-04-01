@@ -111,11 +111,18 @@ This was widely used in early Windows networks and is still supported for backwa
 
 #### Step 2: Configure the DHCP Server
 1. Open the **DHCP Management Console** from **Server Manager** > **Tools** > **DHCP**.
-2. Right-click **DHCP** and select **Authorize** to authorize the server.
-3. Right-click **IPv4** and select **New Scope**.
-4. Configure the scope by entering a **Start IP address**, **End IP address**, **Subnet Mask**, and any **Exclusions** for static IPs.
-5. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
-6. Activate the scope and verify clients can obtain IP addresses.
+![image](https://github.com/user-attachments/assets/b8e472c1-48a5-445a-ae40-a66024959744)
+
+
+3. Right-click **DHCP** and select **Manage authorized servers** to authorize the server.
+![image](https://github.com/user-attachments/assets/9f04652e-d289-46ba-86d5-4fee53945700)
+
+5. Right-click **IPv4** and select **New Scope**.
+![image](https://github.com/user-attachments/assets/8b1cafa3-014a-45fe-8eea-77372d257d8d)
+
+7. Configure the scope by entering a **Start IP address**, **End IP address**, **Subnet Mask**, and any **Exclusions** for static IPs.
+8. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
+9. Activate the scope and verify clients can obtain IP addresses.
 
 ### 3. **Set Up a DNS Server**
 
