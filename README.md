@@ -40,9 +40,22 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 
 #### Step 1: Install AD DS Role
 1. Open **Server Manager** and click **Manage** > **Add Roles and Features**.
-2. Choose **Role-based or feature-based installation**, then select the server and click **Next**.
-3. In the **Roles** section, check **Active Directory Domain Services**. Click **Next**.
-4. Click **Install** to install the AD DS role. Wait for the installation to complete.
+![image](https://github.com/user-attachments/assets/7c69a4e8-bc71-4afd-bcff-0eef781166ee)
+![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
+
+3. Choose **Role-based or feature-based installation**, then select the server and click **Next**.
+![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
+![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
+
+5. In the **Roles** section, check **Active Directory Domain Services**. Click **Next**.
+![image](https://github.com/user-attachments/assets/82238dd9-c8e8-46b6-aea0-f47fec4e7a70)
+![image](https://github.com/user-attachments/assets/f8666a6d-c5a8-4008-b3b9-330f1caaecd6)
+![image](https://github.com/user-attachments/assets/cec71e66-5b54-415d-8d54-abf48c585447)
+![image](https://github.com/user-attachments/assets/4fed33d2-243d-4e5d-8d25-c7bee3f6f0a9)
+![image](https://github.com/user-attachments/assets/0ea3486f-735d-426b-8fbd-4d169a000733)
+![image](https://github.com/user-attachments/assets/9609b242-71de-45b2-ac15-f9758a63f39e)
+
+7. Click **Install** to install the AD DS role. Wait for the installation to complete.
 
 #### Step 2: Promote the Server to Domain Controller
 1. After installation, click the notification flag in **Server Manager** and select **Promote this server to a domain controller**.
