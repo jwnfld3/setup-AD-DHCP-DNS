@@ -56,14 +56,36 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 ![image](https://github.com/user-attachments/assets/9609b242-71de-45b2-ac15-f9758a63f39e)
 
 7. Click **Install** to install the AD DS role. Wait for the installation to complete.
+![image](https://github.com/user-attachments/assets/4a40a9cb-ed28-437d-8ba4-ff7c448386bb)
+
 
 #### Step 2: Promote the Server to Domain Controller
 1. After installation, click the notification flag in **Server Manager** and select **Promote this server to a domain controller**.
-2. Choose **Add a new forest**, then enter the **Root domain name** (e.g., **example.local**).
-3. Set the **Forest functional level** and **Domain functional level** to the appropriate version (e.g., Windows Server 2016 or higher).
-4. Enter a **Directory Services Restore Mode (DSRM) password** and click **Next**.
-5. Review the DNS options and ensure **Install DNS server** is selected.
-6. Review the configuration and click **Install**. The server will restart.
+![image](https://github.com/user-attachments/assets/1e0636b3-ad7c-4cbd-bb0b-b1e12e2f1549)
+
+3. Choose **Add a new forest**, then enter the **Root domain name** (e.g., **example.local**).
+![image](https://github.com/user-attachments/assets/06a0959c-b4e7-445a-9347-018aa6b851d9)
+
+5. Set the **Forest functional level** and **Domain functional level** to the appropriate version (e.g., Windows Server 2016 or higher).
+6. Enter a **Directory Services Restore Mode (DSRM) password** and click **Next**.
+![image](https://github.com/user-attachments/assets/42768bd6-beb4-4c10-8bee-0242e9b61708)
+![image](https://github.com/user-attachments/assets/d783f817-9f98-47a7-94d5-cc7a8ac1621c)
+
+7. Set the NetBIOS domain name.
+
+***NetBIOS (Network Basic Input/Output System)***
+
+This was widely used in early Windows networks and is still supported for backward compatibility. Some older applications, devices, or systems that haven't transitioned to DNS (Domain Name System) may still rely on NetBIOS names to identify and connect to resources on the network.
+![image](https://github.com/user-attachments/assets/3b32e589-6da3-4104-bafa-4cd2e3081f7a)
+![image](https://github.com/user-attachments/assets/7ba7a483-4f89-4961-8a77-15a3c0d9a456)
+![image](https://github.com/user-attachments/assets/f5586158-b7ba-4b21-b291-8f7681c471ed)
+
+9. Review the DNS options and it was discovered that a DNS server will be installed during the process.
+![image](https://github.com/user-attachments/assets/9b6b886f-6738-44d7-871e-e1a9a87c56d2)
+![image](https://github.com/user-attachments/assets/d421db5d-6399-4884-a256-763a9bcca104)
+
+11. Review the configuration and click **Install**. The server will restart.
+![image](https://github.com/user-attachments/assets/fb69ccf8-3a13-4c5e-9bc8-70a83d75d8de)
 
 ### 2. **Set Up a DHCP Server**
 
