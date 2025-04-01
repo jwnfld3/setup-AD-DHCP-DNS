@@ -124,9 +124,17 @@ This was widely used in early Windows networks and is still supported for backwa
 Be sure to exclude the IP address of the server so there isn't an IP conflict.
 ![image](https://github.com/user-attachments/assets/a6088942-77f3-42a4-a16f-71c0f6b6e793)
 
-
 9. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
-10. Activate the scope and verify clients can obtain IP addresses.
+### Large Office/Corporate Network
+In a larger network with many devices, such as in an office or enterprise environment, devices are typically more stable and remain connected for long periods of time. In this case, a longer lease duration is ideal.
+
+**Recommended Lease Duration**: 1 day to 7 days
+
+A longer lease ensures that devices don't need to renew leases too frequently, reducing the workload on the DHCP server. This is especially useful when most devices stay connected for extended periods (e.g., workstations, desktops, etc.).
+
+![image](https://github.com/user-attachments/assets/257fad89-e29a-4ba6-8bb7-4cdcba401484)
+
+11. Activate the scope and verify clients can obtain IP addresses.
 
 ### 3. **Set Up a DNS Server**
 
