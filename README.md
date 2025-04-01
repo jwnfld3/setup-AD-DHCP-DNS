@@ -133,8 +133,16 @@ In a larger network with many devices, such as in an office or enterprise enviro
 A longer lease ensures that devices don't need to renew leases too frequently, reducing the workload on the DHCP server. This is especially useful when most devices stay connected for extended periods (e.g., workstations, desktops, etc.).
 
 ![image](https://github.com/user-attachments/assets/257fad89-e29a-4ba6-8bb7-4cdcba401484)
+![image](https://github.com/user-attachments/assets/9186dbba-ab14-4d09-abaa-8f38d3ce5ab9)
+
+This is a virtual machine so this will not be required.
+![image](https://github.com/user-attachments/assets/12b610e6-568f-4f93-931b-678c50a9bd79)
+![image](https://github.com/user-attachments/assets/3d42afe0-d67c-434f-877c-09e1aad94c4a)
+![image](https://github.com/user-attachments/assets/295d6f17-df60-4d56-b108-84b4875f4d0d)
 
 11. Activate the scope and verify clients can obtain IP addresses.
+![image](https://github.com/user-attachments/assets/dbcaf2ef-fb85-42e5-a318-357614c61467)
+![image](https://github.com/user-attachments/assets/ad70e30a-aa1f-4da1-a68e-02dd29305202)
 
 ### 3. **Set Up a DNS Server**
 
