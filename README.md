@@ -92,8 +92,21 @@ This was widely used in early Windows networks and is still supported for backwa
 #### Step 1: Install the DHCP Server Role
 1. Open **Server Manager** and click **Manage** > **Add Roles and Features**.
 2. Select **Role-based or feature-based installation**, choose the server, and click **Next**.
-3. In the **Roles** section, check **DHCP Server**, then click **Next**.
-4. Click **Install** to install the DHCP role. Wait for the installation to complete.
+![image](https://github.com/user-attachments/assets/1f8b77b8-c44d-4664-ad60-073897782341)
+![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
+![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
+
+4. In the **Roles** section, check **DHCP Server**, then click **Next**.
+![image](https://github.com/user-attachments/assets/40d915c3-f810-4553-a07f-99409e0a8077)
+![image](https://github.com/user-attachments/assets/00b21d58-4192-4919-a78d-97d9bf2c007e)
+![image](https://github.com/user-attachments/assets/2222aea0-c2d1-4616-b426-ef90410061cc)
+![image](https://github.com/user-attachments/assets/9dd1bf83-2dee-4733-aabf-19536232e274)
+![image](https://github.com/user-attachments/assets/31f911f5-1163-44f3-a3f3-ffc4302d47ea)
+
+5. Click **Install** to install the DHCP role. Wait for the installation to complete.
+![image](https://github.com/user-attachments/assets/cb8f9580-ca1a-45cf-b37a-45bc885f3a8a)
+
+
 
 #### Step 2: Configure the DHCP Server
 1. Open the **DHCP Management Console** from **Server Manager** > **Tools** > **DHCP**.
