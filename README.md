@@ -146,17 +146,6 @@ This is a virtual machine so this will not be required.
 ![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
 ![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
 
-### 3. **Set Up a DNS Server**
-
-#### Step 1: Install the DNS Server Role
-1. Open **Server Manager** and click **Manage** > **Add Roles and Features**.
-3. Select **Role-based or feature-based installation**, choose the server, and click **Next**.
-![image](https://github.com/user-attachments/assets/7c69a4e8-bc71-4afd-bcff-0eef781166ee)
-![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
-![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
-![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
-5. In the **Roles** section, check **DNS Server**, then click **Next**.
-6. Click **Install** to install the DNS role.
 
 #### Step 2: Configure the DNS Server
 1. Open the **DNS Management Console** from **Server Manager** > **Tools** > **DNS**.
