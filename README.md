@@ -105,6 +105,7 @@ This was widely used in early Windows networks and is still supported for backwa
 
 5. Click **Install** to install the DHCP role. Wait for the installation to complete.
 ![image](https://github.com/user-attachments/assets/cb8f9580-ca1a-45cf-b37a-45bc885f3a8a)
+![image](https://github.com/user-attachments/assets/eea7e81e-32db-42bf-8fc1-6e9711ba5e5e)
 
 
 
