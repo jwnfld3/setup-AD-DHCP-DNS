@@ -173,6 +173,5 @@ At the end of this lab, **Active Directory Domain Services (AD DS)**, **DHCP**, 
 
 ## Additional Resources
 
-- [Microsoft Active Directory Documentation](https://docs.microsoft.com/en-us/windows-server/identity/active-directory-domain-services)
 - [DHCP Server Configuration in Windows Server](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top)
 - [DNS Server Configuration in Windows Server](https://docs.microsoft.com/en-us/windows-server/networking/dns/dns-top)
