@@ -119,8 +119,14 @@ This was widely used in early Windows networks and is still supported for backwa
 ![image](https://github.com/user-attachments/assets/f3ef4a1f-d891-4f6d-b886-1f3bce1420fe)
 
 7. Configure the scope by entering a **Start IP address**, **End IP address**, **Subnet Mask**, and any **Exclusions** for static IPs.
-8. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
-9. Activate the scope and verify clients can obtain IP addresses.
+![image](https://github.com/user-attachments/assets/2df23822-a856-4aa4-9d84-4bee708a9e46)
+
+Be sure to exclude the IP address of the server so there isn't an IP conflict.
+![image](https://github.com/user-attachments/assets/a6088942-77f3-42a4-a16f-71c0f6b6e793)
+
+
+9. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
+10. Activate the scope and verify clients can obtain IP addresses.
 
 ### 3. **Set Up a DNS Server**
 
