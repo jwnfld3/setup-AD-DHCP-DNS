@@ -43,11 +43,11 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 ![image](https://github.com/user-attachments/assets/7c69a4e8-bc71-4afd-bcff-0eef781166ee)
 ![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
 
-3. Choose **Role-based or feature-based installation**, then select the server and click **Next**.
+2. Choose **Role-based or feature-based installation**, then select the server and click **Next**.
 ![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
 ![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
 
-5. In the **Roles** section, check **Active Directory Domain Services**. Click **Next**.
+3. In the **Roles** section, check **Active Directory Domain Services**. Click **Next**.
 ![image](https://github.com/user-attachments/assets/82238dd9-c8e8-46b6-aea0-f47fec4e7a70)
 ![image](https://github.com/user-attachments/assets/f8666a6d-c5a8-4008-b3b9-330f1caaecd6)
 ![image](https://github.com/user-attachments/assets/cec71e66-5b54-415d-8d54-abf48c585447)
@@ -55,7 +55,7 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 ![image](https://github.com/user-attachments/assets/0ea3486f-735d-426b-8fbd-4d169a000733)
 ![image](https://github.com/user-attachments/assets/9609b242-71de-45b2-ac15-f9758a63f39e)
 
-7. Click **Install** to install the AD DS role. Wait for the installation to complete.
+4. Click **Install** to install the AD DS role. Wait for the installation to complete.
 ![image](https://github.com/user-attachments/assets/4a40a9cb-ed28-437d-8ba4-ff7c448386bb)
 
 
@@ -63,15 +63,15 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 1. After installation, click the notification flag in **Server Manager** and select **Promote this server to a domain controller**.
 ![image](https://github.com/user-attachments/assets/1e0636b3-ad7c-4cbd-bb0b-b1e12e2f1549)
 
-3. Choose **Add a new forest**, then enter the **Root domain name** (e.g., **example.local**).
+2. Choose **Add a new forest**, then enter the **Root domain name** (e.g., **example.local**).
 ![image](https://github.com/user-attachments/assets/06a0959c-b4e7-445a-9347-018aa6b851d9)
 
-5. Set the **Forest functional level** and **Domain functional level** to the appropriate version (e.g., Windows Server 2016 or higher).
-6. Enter a **Directory Services Restore Mode (DSRM) password** and click **Next**.
+3. Set the **Forest functional level** and **Domain functional level** to the appropriate version (e.g., Windows Server 2016 or higher).
+4. Enter a **Directory Services Restore Mode (DSRM) password** and click **Next**.
 ![image](https://github.com/user-attachments/assets/42768bd6-beb4-4c10-8bee-0242e9b61708)
 ![image](https://github.com/user-attachments/assets/d783f817-9f98-47a7-94d5-cc7a8ac1621c)
 
-7. Set the NetBIOS domain name.
+5. Set the NetBIOS domain name.
 
 ***NetBIOS (Network Basic Input/Output System)***
 
@@ -80,11 +80,11 @@ This was widely used in early Windows networks and is still supported for backwa
 ![image](https://github.com/user-attachments/assets/7ba7a483-4f89-4961-8a77-15a3c0d9a456)
 ![image](https://github.com/user-attachments/assets/f5586158-b7ba-4b21-b291-8f7681c471ed)
 
-9. Review the DNS options and it was discovered that a DNS server will be installed during the process.
+6. Review the DNS options and it was discovered that a DNS server will be installed during the process.
 ![image](https://github.com/user-attachments/assets/9b6b886f-6738-44d7-871e-e1a9a87c56d2)
 ![image](https://github.com/user-attachments/assets/d421db5d-6399-4884-a256-763a9bcca104)
 
-11. Review the configuration and click **Install**. The server will restart.
+7. Review the configuration and click **Install**. The server will restart.
 ![image](https://github.com/user-attachments/assets/fb69ccf8-3a13-4c5e-9bc8-70a83d75d8de)
 
 ### 2. **Set Up a DHCP Server**
@@ -96,14 +96,14 @@ This was widely used in early Windows networks and is still supported for backwa
 ![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
 ![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
 
-4. In the **Roles** section, check **DHCP Server**, then click **Next**.
+3. In the **Roles** section, check **DHCP Server**, then click **Next**.
 ![image](https://github.com/user-attachments/assets/40d915c3-f810-4553-a07f-99409e0a8077)
 ![image](https://github.com/user-attachments/assets/00b21d58-4192-4919-a78d-97d9bf2c007e)
 ![image](https://github.com/user-attachments/assets/2222aea0-c2d1-4616-b426-ef90410061cc)
 ![image](https://github.com/user-attachments/assets/9dd1bf83-2dee-4733-aabf-19536232e274)
 ![image](https://github.com/user-attachments/assets/31f911f5-1163-44f3-a3f3-ffc4302d47ea)
 
-5. Click **Install** to install the DHCP role. Wait for the installation to complete.
+4. Click **Install** to install the DHCP role. Wait for the installation to complete.
 ![image](https://github.com/user-attachments/assets/cb8f9580-ca1a-45cf-b37a-45bc885f3a8a)
 ![image](https://github.com/user-attachments/assets/eea7e81e-32db-42bf-8fc1-6e9711ba5e5e)
 
@@ -113,18 +113,18 @@ This was widely used in early Windows networks and is still supported for backwa
 1. Open the **DHCP Management Console** from **Server Manager** > **Tools** > **DHCP**.
 ![image](https://github.com/user-attachments/assets/b8e472c1-48a5-445a-ae40-a66024959744)
 
-5. Right-click **IPv4** and select **New Scope**.
+2. Right-click **IPv4** and select **New Scope**.
 ![image](https://github.com/user-attachments/assets/8b1cafa3-014a-45fe-8eea-77372d257d8d)
 ![image](https://github.com/user-attachments/assets/4b6c7114-2230-4764-8682-dd6cde12f035)
 ![image](https://github.com/user-attachments/assets/f3ef4a1f-d891-4f6d-b886-1f3bce1420fe)
 
-7. Configure the scope by entering a **Start IP address**, **End IP address**, **Subnet Mask**, and any **Exclusions** for static IPs.
+3. Configure the scope by entering a **Start IP address**, **End IP address**, **Subnet Mask**, and any **Exclusions** for static IPs.
 ![image](https://github.com/user-attachments/assets/2df23822-a856-4aa4-9d84-4bee708a9e46)
 
 Be sure to exclude the IP address of the server so there isn't an IP conflict.
 ![image](https://github.com/user-attachments/assets/a6088942-77f3-42a4-a16f-71c0f6b6e793)
 
-9. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
+4. Set the **Lease Duration** and configure the **DHCP Options** such as **Router** and **DNS servers**.
 ### Large Office/Corporate Network
 In a larger network with many devices, such as in an office or enterprise environment, devices are typically more stable and remain connected for long periods of time. In this case, a longer lease duration is ideal.
 
@@ -140,7 +140,7 @@ This is a virtual machine so this will not be required.
 ![image](https://github.com/user-attachments/assets/3d42afe0-d67c-434f-877c-09e1aad94c4a)
 ![image](https://github.com/user-attachments/assets/295d6f17-df60-4d56-b108-84b4875f4d0d)
 
-11. Activate the scope and verify clients can obtain IP addresses.
+5. Activate the scope and verify clients can obtain IP addresses.
 ![image](https://github.com/user-attachments/assets/dbcaf2ef-fb85-42e5-a318-357614c61467)
 ![image](https://github.com/user-attachments/assets/ad70e30a-aa1f-4da1-a68e-02dd29305202)
 ![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
@@ -149,10 +149,19 @@ This is a virtual machine so this will not be required.
 
 #### Step 2: Configure the DNS Server
 1. Open the **DNS Management Console** from **Server Manager** > **Tools** > **DNS**.
+![image](https://github.com/user-attachments/assets/84a284e9-c022-4c98-9a92-2d7e7288b4c2)
+
 2. Right-click **Forward Lookup Zones** and select **New Zone**.
+![image](https://github.com/user-attachments/assets/0ec25fb7-0078-489d-8200-2b1bc86caa08)
+![image](https://github.com/user-attachments/assets/cb427e7b-2859-4af9-870f-8c89d384f23b)
+
 3. Select **Primary Zone**, enter the **Zone Name** (e.g., **example.local**), and click **Next**.
-4. Add **A Records** for DNS resolution (e.g., **server1.example.local**).
-5. Configure **Forwarders** to an external DNS server if necessary.
+![image](https://github.com/user-attachments/assets/719fc0cf-a9ff-42bc-9f5b-31817a8e62b0)
+![image](https://github.com/user-attachments/assets/23762ba8-c48b-4eb7-8cf3-aca6cb92321e)
+![image](https://github.com/user-attachments/assets/6ffca554-59c7-4428-bcef-11d210f01125)
+![image](https://github.com/user-attachments/assets/5adbf34a-5334-462e-b866-25cca2f6ad5d)
+![image](https://github.com/user-attachments/assets/a62c6172-76c9-4ac6-94bf-5e2762a7d438)
+
 
 ---
 
