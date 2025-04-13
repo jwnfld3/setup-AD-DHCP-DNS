@@ -38,8 +38,6 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 
 ### 1. **Install Active Directory Domain Services (AD DS)**
 
-### What is Active Directory Domain Services (AD DS)?
-
 **Active Directory Domain Services (AD DS)** is a core component of Microsoft’s directory service, which provides centralized management and authentication for resources across a network. AD DS is responsible for storing and organizing information about networked resources such as users, computers, and services, and it facilitates access control and security policies.
 
 **Key Features:**
