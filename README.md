@@ -38,17 +38,6 @@ In this lab, Active Directory Domain Services (AD DS), DHCP, and DNS will be set
 
 ### 1. **Install Active Directory Domain Services (AD DS)**
 
-#### Step 1: Install AD DS Role
-1. Open **Server Manager** and click **Manage** > **Add Roles and Features**.
-![image](https://github.com/user-attachments/assets/7c69a4e8-bc71-4afd-bcff-0eef781166ee)
-![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
-
-2. Choose **Role-based or feature-based installation**, then select the server and click **Next**.
-![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
-![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
-
-3. In the **Roles** section, check **Active Directory Domain Services**. Click **Next**.
-
 ### What is Active Directory Domain Services (AD DS)?
 
 **Active Directory Domain Services (AD DS)** is a core component of Microsoft’s directory service, which provides centralized management and authentication for resources across a network. AD DS is responsible for storing and organizing information about networked resources such as users, computers, and services, and it facilitates access control and security policies.
@@ -68,6 +57,18 @@ AD DS is crucial for environments that require centralized management of users, 
 3. **Security and Trusts**: AD DS supports the implementation of security policies and cross-domain trusts to enable access to resources across different domains.
 
 
+
+
+#### Step 1: Install AD DS Role
+1. Open **Server Manager** and click **Manage** > **Add Roles and Features**.
+![image](https://github.com/user-attachments/assets/7c69a4e8-bc71-4afd-bcff-0eef781166ee)
+![image](https://github.com/user-attachments/assets/f111417d-b36a-4390-a147-67471e9f0dba)
+
+2. Choose **Role-based or feature-based installation**, then select the server and click **Next**.
+![image](https://github.com/user-attachments/assets/8fc360ae-e30e-450b-8c4f-d059b314f9dd)
+![image](https://github.com/user-attachments/assets/84870e15-369d-45e6-be40-9154ff2592a4)
+
+3. In the **Roles** section, check **Active Directory Domain Services**. Click **Next**.
 
 ![image](https://github.com/user-attachments/assets/82238dd9-c8e8-46b6-aea0-f47fec4e7a70)
 ![image](https://github.com/user-attachments/assets/f8666a6d-c5a8-4008-b3b9-330f1caaecd6)
